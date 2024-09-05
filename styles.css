@@ -43,6 +43,8 @@ body {
   margin: 0px 25px;
   color: hsl(212, 21%, 14%);
   opacity: 70%;
+  margin-top: 10px;
+  letter-spacing: 3px;
 }
 
 #title {
