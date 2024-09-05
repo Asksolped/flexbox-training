@@ -1,7 +1,10 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   background: hsl(30, 38%, 92%);
   display: flex;
   justify-content: center;
