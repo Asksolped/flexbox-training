@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-container {
+  display: flex;
+}
+
+#perfume {
+  width: 250px;
+}
+
+#perfume2 {
+  display: none;
+  width: 250px;
+}
+
+#card {
+  font-family: montserrat;
+  font-weight: 500;
+  background: white;
+  min-width: 250px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  opacity: 20%;
+  font-size: 14px;
+  align-self: flex-start;
+  margin: 10px 25px;
+}
+
+#title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 10px 25px;
+}
+
+#info {
+  font-size: 14px;
+  margin: 10px 25px;
+}
+
+#prices {
+  display: flex;
+  font-family: Fraunces;
+  font-weight: 700;
+  align-items: center;
+}
+
+#current-price {
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#old-price {
+  text-decoration: line-through;
+  opacity: 20%;
+  font-size: 16px;
+}
+
+#shopping {
+  background-color: hsl(158, 36%, 37%);
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: 0px;
+  color: white;
+}
+
+#cart {
+  margin: 5px;
+}
+
+@media (max-width: 500px) {
+  #card-container {
+    flex-direction: column;
+  }
+  #perfume {
+    display: none;
+  }
+
+  #perfume2 {
+    display: block;
+  }
+}
