@@ -26,7 +26,6 @@ body {
 }
 
 #card {
-  font-family: montserrat;
   font-weight: 500;
   background: white;
   min-width: 250px;
@@ -56,7 +55,6 @@ body {
 
 #prices {
   display: flex;
-  font-family: Fraunces;
   font-weight: 700;
   align-items: center;
 }
@@ -92,6 +90,14 @@ button {
 
 #cart {
   margin: 5px;
+}
+
+.primary-font {
+  font-family: monserrat;
+}
+
+.secondary-font {
+  font-family: Fraunces;
 }
 
 @media (max-width: 500px) {
