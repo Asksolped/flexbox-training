@@ -26,7 +26,6 @@ body {
 }
 
 #card {
-  font-weight: 500;
   background: white;
   min-width: 250px;
   max-width: 250px;
@@ -43,8 +42,7 @@ body {
 }
 
 #title {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 28px;
   margin: 10px 25px;
 }
 
@@ -81,6 +79,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
 }
 
 button {
@@ -94,10 +93,12 @@ button {
 
 .primary-font {
   font-family: monserrat;
+  font-weight: 500;
 }
 
 .secondary-font {
   font-family: Fraunces;
+  font-weight: 700;
 }
 
 @media (max-width: 500px) {
