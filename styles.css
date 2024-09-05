@@ -83,15 +83,12 @@ body {
   justify-content: center;
   align-items: center;
   font-weight: 700;
+  gap: 5px;
 }
 
 button {
   border: 0px;
   color: white;
-}
-
-#cart {
-  margin: 5px;
 }
 
 .primary-font {
@@ -115,8 +112,8 @@ button {
   #perfume2 {
     display: block;
   }
-}
 
-#shopping {
-  margin-bottom: 0px;
+  #shopping {
+    margin-bottom: 0px;
+  }
 }
